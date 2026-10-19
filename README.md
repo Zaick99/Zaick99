@@ -2,11 +2,13 @@
 
 <img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/hero.svg" width="100%" alt="Zaick">
 
-<img src="https://readme-typing-svg.demolab.com/?font=Inter&weight=700&size=22&pause=1100&color=FFA800&center=true&vCenter=true&width=720&height=46&lines=Windows+desktop+apps.+On+purpose.;One+file.+No+installer.+No+mercy.;Installers+are+for+cowards.;If+it+needs+a+setup+wizard%2C+I+already+lost.;Why+so+serious%3F+Ship+the+.exe." alt="">
+### Windows apps that are **one file**.
+
+<sub>Download. Double click. Done. If it needs a setup wizard, I already lost.</sub>
 
 <img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-1.svg" width="100%" alt="">
 
-## The toys
+### The toys
 
 <h3>
   <img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/app-ducknote.svg" width="38" align="top">
@@ -21,8 +23,6 @@ Code blocks guess their own language. The notes encrypt. The duck watches.</sub>
 [![Release](https://img.shields.io/github/v/release/Zaick99/DuckNote?style=for-the-badge&label=&color=FFA800&labelColor=1A1A1E)](https://github.com/Zaick99/DuckNote/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Zaick99/DuckNote/total?style=for-the-badge&label=downloads&color=5FCB7A&labelColor=1A1A1E)](https://github.com/Zaick99/DuckNote/releases)
 [![Stars](https://img.shields.io/github/stars/Zaick99/DuckNote?style=for-the-badge&label=stars&color=F1707B&labelColor=1A1A1E)](https://github.com/Zaick99/DuckNote/stargazers)
-
-<br>
 
 <h3>
   <img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/app-zachievements.svg" width="38" align="top">
@@ -40,7 +40,7 @@ A .NET 10 rebuild of gibbed's SAM. You didn't earn them. Neither did I.</sub>
 
 <img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-2.svg" width="100%" alt="">
 
-## Tools of the trade
+### Tools of the trade
 
 <img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/tools.svg" width="560" alt="C#, .NET, Rust, PowerShell, Visual Studio, VS Code, Git, GitHub, GitHub Actions, Windows, Markdown, Steam">
 
@@ -51,7 +51,7 @@ PowerShell because somebody has to talk to the machine at 3am.</sub>
 
 <img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-3.svg" width="100%" alt="">
 
-## The star chart
+### The star chart
 
 <a href="https://star-history.com/#Zaick99/DuckNote&Zaick99/ZAchievements&Date">
   <picture>
