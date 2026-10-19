@@ -25,10 +25,10 @@ PowerShell because somebody has to talk to the machine at 3am.</sub>
 
 ### The star chart
 
-<a href="https://star-history.com/#Zaick99/DuckNote&Zaick99/ZAchievements&Date">
+<a href="https://star-history.com/#zaick99/ducknote&zaick99/zachievements&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Zaick99/DuckNote,Zaick99/ZAchievements&type=Date&theme=dark">
-    <img src="https://api.star-history.com/svg?repos=Zaick99/DuckNote,Zaick99/ZAchievements&type=Date" alt="Star history" width="680">
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zaick99/ducknote,zaick99/zachievements&type=Date&theme=dark">
+    <img src="https://api.star-history.com/svg?repos=zaick99/ducknote,zaick99/zachievements&type=Date" alt="Star history" width="680">
   </picture>
 </a>
 
