@@ -1,51 +1,27 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/hero.svg?v=6" width="100%" alt="Zaick">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/hero.svg?v=7" width="100%" alt="Zaick">
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-1.svg?v=6" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-1.svg?v=7" width="100%" alt="">
 
-### The toys
+<a href="https://github.com/Zaick99/DuckNote"><img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/card-ducknote.svg?v=7" width="300" alt="DuckNote"></a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/Zaick99/ZAchievements"><img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/card-zachievements.svg?v=7" width="300" alt="ZAchievements"></a>
 
-<h3>
-  <img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/app-ducknote.svg?v=6" width="38" align="top">
-  &nbsp;<a href="https://github.com/Zaick99/DuckNote">DuckNote</a>
-</h3>
+<sub>Two cards on the table. Pick one — they both download.</sub>
 
-**Notes that scan your network while you type.**
-
-<sub>Write an address, it pings itself. Scan a subnet, the results walk back into the text.<br>
-Code blocks guess their own language. The notes encrypt. The duck watches.</sub>
-
-[![Release](https://img.shields.io/github/v/release/Zaick99/DuckNote?style=for-the-badge&label=&color=FFA800&labelColor=1A1A1E)](https://github.com/Zaick99/DuckNote/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/Zaick99/DuckNote/total?style=for-the-badge&label=downloads&color=5FCB7A&labelColor=1A1A1E)](https://github.com/Zaick99/DuckNote/releases)
-[![Stars](https://img.shields.io/github/stars/Zaick99/DuckNote?style=for-the-badge&label=stars&color=F1707B&labelColor=1A1A1E)](https://github.com/Zaick99/DuckNote/stargazers)
-
-<h3>
-  <img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/app-zachievements.svg?v=6" width="38" align="top">
-  &nbsp;<a href="https://github.com/Zaick99/ZAchievements">ZAchievements</a>
-</h3>
-
-**Every Steam achievement. Unlocked. By you. Allegedly.**
-
-<sub>Browse all of Steam, flip the trophies, claim the free games straight into your library.<br>
-A .NET 10 rebuild of gibbed's SAM. You didn't earn them. Neither did I.</sub>
-
-[![Release](https://img.shields.io/github/v/release/Zaick99/ZAchievements?style=for-the-badge&label=&color=FFA800&labelColor=1A1A1E)](https://github.com/Zaick99/ZAchievements/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/Zaick99/ZAchievements/total?style=for-the-badge&label=downloads&color=5FCB7A&labelColor=1A1A1E)](https://github.com/Zaick99/ZAchievements/releases)
-[![Stars](https://img.shields.io/github/stars/Zaick99/ZAchievements?style=for-the-badge&label=stars&color=F1707B&labelColor=1A1A1E)](https://github.com/Zaick99/ZAchievements/stargazers)
-
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-2.svg?v=6" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-2.svg?v=7" width="100%" alt="">
 
 ### Tools of the trade
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/tools.svg?v=6" width="560" alt="C#, .NET, Rust, PowerShell, Visual Studio, VS Code, Git, GitHub, GitHub Actions, Windows, Markdown, Steam">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/tools.svg?v=7" width="560" alt="C#, .NET, Rust, PowerShell, Visual Studio, VS Code, Git, GitHub, GitHub Actions, Windows, Markdown, Steam">
 
 <br>
 
 <sub>C# for the ones with windows. Rust for the ones with teeth.<br>
 PowerShell because somebody has to talk to the machine at 3am.</sub>
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-3.svg?v=6" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-3.svg?v=7" width="100%" alt="">
 
 ### The star chart
 
@@ -61,7 +37,7 @@ PowerShell because somebody has to talk to the machine at 3am.</sub>
 <sub><b>Look at it. Majestic.</b><br>
 Every star on that chart has a name. Add one and the line goes up.</sub>
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-1.svg?v=6" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-1.svg?v=7" width="100%" alt="">
 
 ### Nobody panics when things go according to plan.
 
