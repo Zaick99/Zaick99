@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 110" width="1000" height="110" role="img" aria-label="">
+  <defs>
+    <symbol id="sagoma" viewBox="0 0 128 128"><image href="data:image/png;base64,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" width="128" height="128"/></symbol>
+    <filter id="tinta"><feFlood flood-color="#FFA800" result="c"/><feComposite in="c" in2="SourceAlpha" operator="in"/></filter>
+  </defs>
+  <g filter="url(#tinta)">
+  <g opacity="0.2">
+    <animateTransform attributeName="transform" type="translate" calcMode="linear"
+                      values="262.2,0; 760,0; 262.2,0" dur="20.2s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" calcMode="linear"
+                        values="0,26.4; 0,40.8; 0,26.4" dur="20.4s" repeatCount="indefinite"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate"
+                          values="-12 34.55 34.55; 12 34.55 34.55; -12 34.55 34.55"
+                          dur="30.8s" repeatCount="indefinite"/>
+        <use href="#sagoma" width="69.1" height="69.1"/>
+      </g>
+    </g>
+  </g>
+  <g opacity="0.2">
+    <animateTransform attributeName="transform" type="translate" calcMode="linear"
+                      values="249.4,0; 644.2,0; 249.4,0" dur="29.5s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" calcMode="linear"
+                        values="0,10.1; 0,41.4; 0,10.1" dur="19.8s" repeatCount="indefinite"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate"
+                          values="-12 31.55 31.55; 12 31.55 31.55; -12 31.55 31.55"
+                          dur="22.7s" repeatCount="indefinite"/>
+        <use href="#sagoma" width="63.1" height="63.1"/>
+      </g>
+    </g>
+  </g>
+  <g opacity="0.1">
+    <animateTransform attributeName="transform" type="translate" calcMode="linear"
+                      values="74.7,0; 594.5,0; 74.7,0" dur="25.5s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" calcMode="linear"
+                        values="0,8.4; 0,39.2; 0,8.4" dur="14.5s" repeatCount="indefinite"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate"
+                          values="-12 34.35 34.35; 12 34.35 34.35; -12 34.35 34.35"
+                          dur="21.8s" repeatCount="indefinite"/>
+        <use href="#sagoma" width="68.7" height="68.7"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g transform="translate(482,78.3) rotate(9.4) scale(0.3)" opacity="0" fill="#FFA800">
+    <path d='M0.0,2.4 L5.5,58.3 L14.5,57.7 L12.0,1.6 Z'/><path d='M35.5,0.4 L38.0,56.6 L52.0,55.4 L44.5,-0.4 Z'/><path d='M8.6,33.0 L43.4,27.5 L42.6,20.5 L7.4,23.0 Z'/><path d='M62.7,60.1 L76.9,2.9 L71.1,1.1 L49.3,55.9 Z'/><path d='M71.2,2.9 L85.4,58.2 L98.6,53.8 L76.8,1.1 Z'/><path d='M63.6,44.5 L86.5,40.5 L85.5,33.5 L62.4,35.5 Z'/>
+    <animate attributeName="opacity" values="0;0;0.4;0.4;0" keyTimes="0;.14;.3;.62;1"
+             dur="7.5s" begin="3.1s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(59.6,16.3) rotate(-12.6) scale(0.3)" opacity="0" fill="#FFA800">
+    <path d='M-0.4,4.8 L7.6,57.2 L20.4,54.8 L8.4,3.2 Z'/><path d='M31.0,2.5 L38.0,58.3 L46.0,57.7 L45.0,1.5 Z'/><path d='M6.3,27.9 L39.0,35.4 L41.0,24.6 L7.7,20.1 Z'/><path d='M59.1,58.1 L79.2,5.4 L72.8,2.6 L48.9,53.9 Z'/><path d='M72.6,4.9 L83.7,59.6 L96.3,56.4 L79.4,3.1 Z'/><path d='M61.1,39.9 L82.9,45.9 L85.1,36.1 L62.9,32.1 Z'/>
+    <animate attributeName="opacity" values="0;0;0.2;0.2;0" keyTimes="0;.14;.3;.62;1"
+             dur="6.1s" begin="2.7s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(892.7,66.2) rotate(-13.1) scale(0.4)" opacity="0" fill="#FFA800">
+    <path d='M0.0,2.4 L5.5,58.3 L14.5,57.7 L12.0,1.6 Z'/><path d='M35.5,0.4 L38.0,56.6 L52.0,55.4 L44.5,-0.4 Z'/><path d='M8.6,33.0 L43.4,27.5 L42.6,20.5 L7.4,23.0 Z'/><path d='M62.7,60.1 L76.9,2.9 L71.1,1.1 L49.3,55.9 Z'/><path d='M71.2,2.9 L85.4,58.2 L98.6,53.8 L76.8,1.1 Z'/><path d='M63.6,44.5 L86.5,40.5 L85.5,33.5 L62.4,35.5 Z'/>
+    <animate attributeName="opacity" values="0;0;0.4;0.4;0" keyTimes="0;.14;.3;.62;1"
+             dur="7.1s" begin="3.2s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(675.4,20.5) rotate(4.8) scale(0.4)" opacity="0" fill="#FFA800">
+    <path d='M0.0,2.4 L5.5,58.3 L14.5,57.7 L12.0,1.6 Z'/><path d='M35.5,0.4 L38.0,56.6 L52.0,55.4 L44.5,-0.4 Z'/><path d='M8.6,33.0 L43.4,27.5 L42.6,20.5 L7.4,23.0 Z'/><path d='M62.7,60.1 L76.9,2.9 L71.1,1.1 L49.3,55.9 Z'/><path d='M71.2,2.9 L85.4,58.2 L98.6,53.8 L76.8,1.1 Z'/><path d='M63.6,44.5 L86.5,40.5 L85.5,33.5 L62.4,35.5 Z'/>
+    <animate attributeName="opacity" values="0;0;0.5;0.5;0" keyTimes="0;.14;.3;.62;1"
+             dur="7.4s" begin="0.4s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(391.6,80.5) rotate(-15.1) scale(0.2)" opacity="0" fill="#FFA800">
+    <path d='M0.0,2.4 L5.5,58.3 L14.5,57.7 L12.0,1.6 Z'/><path d='M35.5,0.4 L38.0,56.6 L52.0,55.4 L44.5,-0.4 Z'/><path d='M8.6,33.0 L43.4,27.5 L42.6,20.5 L7.4,23.0 Z'/><path d='M62.7,60.1 L76.9,2.9 L71.1,1.1 L49.3,55.9 Z'/><path d='M71.2,2.9 L85.4,58.2 L98.6,53.8 L76.8,1.1 Z'/><path d='M63.6,44.5 L86.5,40.5 L85.5,33.5 L62.4,35.5 Z'/>
+    <animate attributeName="opacity" values="0;0;0.4;0.4;0" keyTimes="0;.14;.3;.62;1"
+             dur="5.6s" begin="3.9s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(199.1,25.5) rotate(-16.3) scale(0.3)" opacity="0" fill="#FFA800">
+    <path d='M-0.4,4.8 L7.6,57.2 L20.4,54.8 L8.4,3.2 Z'/><path d='M31.0,2.5 L38.0,58.3 L46.0,57.7 L45.0,1.5 Z'/><path d='M6.3,27.9 L39.0,35.4 L41.0,24.6 L7.7,20.1 Z'/><path d='M59.1,58.1 L79.2,5.4 L72.8,2.6 L48.9,53.9 Z'/><path d='M72.6,4.9 L83.7,59.6 L96.3,56.4 L79.4,3.1 Z'/><path d='M61.1,39.9 L82.9,45.9 L85.1,36.1 L62.9,32.1 Z'/>
+    <animate attributeName="opacity" values="0;0;0.3;0.3;0" keyTimes="0;.14;.3;.62;1"
+             dur="3.5s" begin="0.5s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(720.5,76.1) rotate(-8.8) scale(0.3)" opacity="0" fill="#FFA800">
+    <path d='M-0.4,4.8 L7.6,57.2 L20.4,54.8 L8.4,3.2 Z'/><path d='M31.0,2.5 L38.0,58.3 L46.0,57.7 L45.0,1.5 Z'/><path d='M6.3,27.9 L39.0,35.4 L41.0,24.6 L7.7,20.1 Z'/><path d='M59.1,58.1 L79.2,5.4 L72.8,2.6 L48.9,53.9 Z'/><path d='M72.6,4.9 L83.7,59.6 L96.3,56.4 L79.4,3.1 Z'/><path d='M61.1,39.9 L82.9,45.9 L85.1,36.1 L62.9,32.1 Z'/>
+    <animate attributeName="opacity" values="0;0;0.4;0.4;0" keyTimes="0;.14;.3;.62;1"
+             dur="4.8s" begin="5.1s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(300.6,39.2) rotate(2.8) scale(0.2)" opacity="0" fill="#FFA800">
+    <path d='M0.0,2.4 L5.5,58.3 L14.5,57.7 L12.0,1.6 Z'/><path d='M35.5,0.4 L38.0,56.6 L52.0,55.4 L44.5,-0.4 Z'/><path d='M8.6,33.0 L43.4,27.5 L42.6,20.5 L7.4,23.0 Z'/><path d='M62.7,60.1 L76.9,2.9 L71.1,1.1 L49.3,55.9 Z'/><path d='M71.2,2.9 L85.4,58.2 L98.6,53.8 L76.8,1.1 Z'/><path d='M63.6,44.5 L86.5,40.5 L85.5,33.5 L62.4,35.5 Z'/>
+    <animate attributeName="opacity" values="0;0;0.5;0.5;0" keyTimes="0;.14;.3;.62;1"
+             dur="5s" begin="3.3s" repeatCount="indefinite"/>
+  </g>
+</svg>
