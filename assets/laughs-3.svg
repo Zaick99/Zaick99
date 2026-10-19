@@ -1,206 +1,115 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 140" width="1000" height="140" role="img" aria-label="">
   <defs>
     <symbol id="sagoma" viewBox="0 0 128 128"><image href="data:image/png;base64,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" width="128" height="128"/></symbol>
-    <symbol id="teschio" viewBox="0 0 50 66"><image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABCCAYAAAAVHYVwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATeSURBVGhD3ZpN6KZTGMaHhhgaQtOMRoTykdEwmlHT2GEnRPkqGxs1mWkWM7KymIUGhWZmQwahZMECMcVGiaJ8hQVCFpKIxSw0del6O++/8173fZ9znuc5/3+46rd4rvc+5z7P+3ycr2cVgFX/B4zxX8UYnTgJwHoAVwC4BsB2AFcB2ADgRCd+MsYYCRu3BcB+AD+grpfSSWo9ozHGANYCuAfAu9rKAfoGwC09rpIxGjgNwAFt0US9A+BkJ1czxihwDoCntQUd9TeAbU7eJowRcJtmXUaNenaMIZwN4DXNtAK6zmlLEWNk8J79TjOsoPgy0TaFGCNxBoDvteZOOgLgCzUd/QTgdKdtLsZIvKC1dtL5WY5zAfyiAaLHnLa5GAPApVpbJz3o5OKbkH1JSRc45QzGAPCR1tRJUT9B/08NzvQVgBOccguocbHW0kmvamLhSi0gusEps4Aae7WGTrpREzvs0EKZ3nPiF1DjLa0h0KcAdgO4FcAz+qOj1rdPqa7i61iN37S0o0POPfuJBmX6QJMW4Dgu0v1O/BL5AUegNX0LYLVWAuB6Dcy004kvwdvQ049O7BL5ATvBmq7WCjJ+1eAkTqo0tkbUv4S3aH7Azqqkg1pY4PPiiTNDja1xWCtJ4ltVY2fkB7VXoHdL5fC58XSvE1vjZq0kidNmjZ2RH2zWUplqV2POx1owvQg0rkbUn4VXNz8oXRH+Zgo7PKUFky5yYkucqRUkXeLEzsgPOKaJVLut5nAO7+k5J7ZE9OI5y4mdkR9wAOep+NoTOLuLFD6oDlE94SJFfsC1KE/HtVABzihLutAp4/GEFgTwvhO3hBqRTtGCAdGfMddftaFGoUNs7tkJbyNPl2vBAD5LLXooXR3+QRzGbwRwZxrOROJETPMtocabWjqJo2KN9SiNlaaIV1JzLaDGI1pDEvsHjfW4Vgt20rNOrgXUuElryMS3msYrr2ihTho8seJ9GOmoM3yfw2djnxboqGiaHJ4IKS0D3eXE87lonZCN0QNOToMxCq+/uR4HcHeaIb6tPy6D1jhtNBgj3T7RfGCl9bzTPhdjJPiP/xvU2n+FJ8Kr8rXWusJ61GlXiDEyuN83VT8D2DriT+GSbThA9DCGwIWDKbov1cOhCE+qRezLtB1VjCFwEPiGZhqgvBPlLm9Nzc+EYgwHnswfmrFBXzp1PalBmS5z4psxRkBpPh/Jm6tzOSnSqU58M8YoUGpEJF7NvI5oUYHiPr3mbMYYFThnGCLuoeflX9aATNURbgljNLAOwO/aikDc9+AtwxXClk1VvYLNGKMRLteww+otriFrriaMMRB2WlxJ7KUXnRxNGGMkx7RFEzSoR59jjJEMHYKUNOr2MsZIOHvsJW5+av1VjDESfn/VU0PXirudCLfjeuphJ0cRY4yEiXtqyHrzDGOMZOpw3xM7Xs0TYoyR3K6t6KA9Tp4QY4yE31f1FhdANE+IMUayXB/itO4CdDuRaJMoUsv3WlTzINIYI+GS5hB92DDo3OTkCTHGBIYs6n2Whvfe503s2bt+0ziUISvxvCIsc14a3vDTEH6KG24/1zDGBO7Q1hbEfZh5ufkKf7TS34QxJsBZYIs4u+T2s5afhDEm8rq2OhOfIW4RNL9Sh2CMifB1ydVFbiV/nk5sV20jswf/AGH6+QYB9grgAAAAAElFTkSuQmCC" width="50" height="66"/></symbol>
     <filter id="tinta"><feFlood flood-color="#FFA800" result="c"/><feComposite in="c" in2="SourceAlpha" operator="in"/></filter>
   </defs>
-  <use href="#teschio" width="30" height="40" opacity=".06">
-    <animateTransform attributeName="transform" type="translate"
-                      from="-30,140.2" to="1040,140.2" dur="39.5s"
-                      begin="-2.4s" repeatCount="indefinite"/>
-  </use>
-  <use href="#teschio" width="30" height="40" opacity=".06">
-    <animateTransform attributeName="transform" type="translate"
-                      from="-30,156.8" to="1040,156.8" dur="30.9s"
-                      begin="-26s" repeatCount="indefinite"/>
-  </use>
   <g filter="url(#tinta)">
   <g opacity="0.2">
     <animateTransform attributeName="transform" type="translate" calcMode="linear"
-                      values="56,173;112,233;173,167;0,150;76,143;73,156;76,158;105,152;146,143;155,140;227,142;238,191;227,142;155,140;146,143;105,152;76,158;73,156;76,143;0,150;173,167;112,233;56,173" keyTimes="0.0000;0.0520;0.1107;0.2467;0.3067;0.3280;0.3333;0.3507;0.4373;0.4427;0.4800;0.5000;0.5200;0.5573;0.5627;0.6493;0.6667;0.6720;0.6933;0.7533;0.8893;0.9480;1.0000"
+                      values="288,18;289,17;322,0;365,22;357,0;341,47;368,75;441,0;486,48;510,75;512,72;511,75;498,46;370,0;259,41;258,41;280,0;322,75;323,72;322,75;280,0;258,41;259,41;370,0;498,46;511,75;512,72;510,75;486,48;441,0;368,75;341,47;357,0;365,22;322,0;289,17;288,18" keyTimes="0.0000;0.0000;0.0187;0.0427;0.0587;0.0907;0.1080;0.1547;0.1840;0.2000;0.2027;0.2040;0.2200;0.2707;0.3147;0.3173;0.3800;0.4960;0.5000;0.5040;0.6200;0.6827;0.6853;0.7293;0.7800;0.7960;0.7973;0.8000;0.8160;0.8453;0.8920;0.9093;0.9413;0.9573;0.9813;1.0000;1.0000"
                       dur="60s" repeatCount="indefinite"/>
     <g>
       <animateTransform attributeName="transform" type="rotate"
-                        values="-13 13.3 13.3; 13 13.3 13.3; -13 13.3 13.3"
-                        dur="33.8s" repeatCount="indefinite"/>
-      <use href="#sagoma" width="26.6" height="26.6"/>
+                        values="-13 32.6 32.6; 13 32.6 32.6; -13 32.6 32.6"
+                        dur="25s" repeatCount="indefinite"/>
+      <use href="#sagoma" width="65.3" height="65.3"/>
     </g>
   </g>
   <g opacity="0.2">
     <animateTransform attributeName="transform" type="translate" calcMode="linear"
-                      values="50,129;21,233;0,157;23,73;0,86;92,133;54,233;41,202;0,231;4,233;120,152;124,145;125,166;124,145;120,152;4,233;0,231;41,202;54,233;92,133;0,86;23,73;0,157;21,233;50,129" keyTimes="0.0000;0.0653;0.1133;0.1667;0.1853;0.2560;0.3133;0.3320;0.3587;0.3613;0.4373;0.4493;0.5000;0.5507;0.5627;0.6387;0.6413;0.6680;0.6867;0.7440;0.8147;0.8333;0.8867;0.9347;1.0000"
+                      values="922,21;919,0;908,100;896,0;884,100;873,0;861,100;852,21;853,0;854,34;856,44;878,0;893,32;926,68;901,30;905,27;901,30;926,68;893,32;878,0;856,44;854,34;853,0;852,21;861,100;873,0;884,100;896,0;908,100;919,0;922,21" keyTimes="0.0000;0.0107;0.0693;0.1280;0.1867;0.2453;0.3040;0.3493;0.3613;0.3800;0.3893;0.4120;0.4280;0.4493;0.4960;0.5000;0.5040;0.5507;0.5720;0.5880;0.6107;0.6200;0.6387;0.6507;0.6960;0.7547;0.8133;0.8720;0.9307;0.9893;1.0000"
                       dur="60s" repeatCount="indefinite"/>
     <g>
       <animateTransform attributeName="transform" type="rotate"
-                        values="-13 13.3 13.3; 13 13.3 13.3; -13 13.3 13.3"
-                        dur="33s" repeatCount="indefinite"/>
-      <use href="#sagoma" width="26.7" height="26.7"/>
+                        values="-13 20.1 20.1; 13 20.1 20.1; -13 20.1 20.1"
+                        dur="19.4s" repeatCount="indefinite"/>
+      <use href="#sagoma" width="40.1" height="40.1"/>
     </g>
   </g>
   <g opacity="0.2">
     <animateTransform attributeName="transform" type="translate" calcMode="linear"
-                      values="209,102;92,0;38,47;65,0;72,16;0,110;44,167;46,172;48,170;59,85;48,170;46,172;44,167;0,110;72,16;65,0;38,47;92,0;209,102" keyTimes="0.0000;0.1133;0.1667;0.2027;0.2147;0.2853;0.3280;0.3320;0.3333;0.5000;0.6667;0.6680;0.6720;0.7147;0.7853;0.7973;0.8333;0.8867;1.0000"
+                      values="237,50;238,49;199,61;284,44;255,0;209,73;207,75;209,76;210,82;221,0;233,82;238,49;297,6;238,49;233,82;221,0;210,82;209,76;207,75;209,73;255,0;284,44;199,61;238,49;237,50" keyTimes="0.0000;0.0000;0.0413;0.0907;0.1760;0.3147;0.3160;0.3173;0.3227;0.3853;0.4480;0.4733;0.5000;0.5267;0.5520;0.6147;0.6773;0.6827;0.6840;0.6853;0.8240;0.9093;0.9587;1.0000;1.0000"
                       dur="60s" repeatCount="indefinite"/>
     <g>
       <animateTransform attributeName="transform" type="rotate"
-                        values="-13 15.9 15.9; 13 15.9 15.9; -13 15.9 15.9"
-                        dur="21s" repeatCount="indefinite"/>
-      <use href="#sagoma" width="31.9" height="31.9"/>
+                        values="-13 28.9 28.9; 13 28.9 28.9; -13 28.9 28.9"
+                        dur="31.9s" repeatCount="indefinite"/>
+      <use href="#sagoma" width="57.8" height="57.8"/>
     </g>
   </g>
   <g opacity="0.1">
     <animateTransform attributeName="transform" type="translate" calcMode="linear"
-                      values="349,219;353,221;359,229;363,222;419,211;406,229;336,125;349,96;209,3;210,0;237,229;241,199;349,229;406,213;455,218;406,213;349,229;241,199;237,229;210,0;209,3;349,96;336,125;406,229;419,211;363,222;359,229;353,221;349,219" keyTimes="0.0000;0.0013;0.0067;0.0107;0.1227;0.1293;0.1680;0.1787;0.2707;0.2733;0.3733;0.3867;0.4453;0.4760;0.5000;0.5240;0.5547;0.6133;0.6267;0.7267;0.7293;0.8213;0.8320;0.8707;0.8773;0.9893;0.9933;0.9987;1.0000"
+                      values="87,55;134,92;152,78;6,0;0,4;161,92;158,92;9,0;0,6;140,92;191,61;196,31;191,61;140,92;0,6;9,0;158,92;161,92;0,4;6,0;152,78;134,92;87,55" keyTimes="0.0000;0.0293;0.0413;0.1680;0.1747;0.3160;0.3173;0.3840;0.3880;0.4507;0.4733;0.5000;0.5267;0.5493;0.6120;0.6160;0.6827;0.6840;0.8253;0.8320;0.9587;0.9707;1.0000"
+                      dur="60s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate"
+                        values="-13 23.8 23.8; 13 23.8 23.8; -13 23.8 23.8"
+                        dur="31.6s" repeatCount="indefinite"/>
+      <use href="#sagoma" width="47.6" height="47.6"/>
+    </g>
+  </g>
+  <g opacity="0.1">
+    <animateTransform attributeName="transform" type="translate" calcMode="linear"
+                      values="899,92;785,0;696,73;686,109;678,75;913,109;969,101;954,99;959,109;969,81;939,5;969,81;959,109;954,99;969,101;913,109;678,75;686,109;696,73;785,0;899,92" keyTimes="0.0000;0.0867;0.1560;0.1813;0.2053;0.3920;0.4373;0.4493;0.4547;0.4667;0.5000;0.5333;0.5453;0.5507;0.5627;0.6080;0.7947;0.8187;0.8440;0.9133;1.0000"
                       dur="60s" repeatCount="indefinite"/>
     <g>
       <animateTransform attributeName="transform" type="rotate"
                         values="-13 15.6 15.6; 13 15.6 15.6; -13 15.6 15.6"
-                        dur="19.5s" repeatCount="indefinite"/>
-      <use href="#sagoma" width="31.1" height="31.1"/>
+                        dur="33s" repeatCount="indefinite"/>
+      <use href="#sagoma" width="31.2" height="31.2"/>
     </g>
   </g>
   <g opacity="0.2">
     <animateTransform attributeName="transform" type="translate" calcMode="linear"
-                      values="618,150;576,72;660,91;574,0;399,187;371,196;399,187;574,0;660,91;576,72;618,150" keyTimes="0.0000;0.0640;0.2133;0.3000;0.4760;0.5000;0.5240;0.7000;0.7867;0.9360;1.0000"
+                      values="786,63;678,86;614,73;622,86;645,45;640,0;636,34;627,35;681,86;770,0;802,31;833,72;839,86;840,83;840,86;845,48;824,19;835,0;847,23;845,29;847,23;835,0;824,19;845,48;840,86;840,83;839,86;833,72;802,31;770,0;681,86;627,35;636,34;640,0;645,45;622,86;614,73;678,86;786,63" keyTimes="0.0000;0.0707;0.1133;0.1240;0.1560;0.1840;0.2053;0.2107;0.2533;0.3240;0.3493;0.3800;0.3880;0.3893;0.3920;0.4280;0.4680;0.4813;0.4960;0.5000;0.5040;0.5187;0.5320;0.5720;0.6080;0.6107;0.6120;0.6200;0.6507;0.6760;0.7467;0.7893;0.7947;0.8160;0.8440;0.8760;0.8867;0.9293;1.0000"
                       dur="60s" repeatCount="indefinite"/>
     <g>
       <animateTransform attributeName="transform" type="rotate"
-                        values="-13 13.7 13.7; 13 13.7 13.7; -13 13.7 13.7"
-                        dur="19s" repeatCount="indefinite"/>
-      <use href="#sagoma" width="27.3" height="27.3"/>
-    </g>
-  </g>
-  <g opacity="0.2">
-    <animateTransform attributeName="transform" type="translate" calcMode="linear"
-                      values="339,22;217,60;203,57;104,0;104,0;136,26;152,15;129,32;125,0;116,78;114,79;110,43;114,79;116,78;125,0;129,32;152,15;136,26;104,0;104,0;203,57;217,60;339,22" keyTimes="0.0000;0.1040;0.1173;0.2147;0.2147;0.2573;0.2707;0.3173;0.3547;0.4427;0.4493;0.5000;0.5507;0.5573;0.6453;0.6827;0.7293;0.7427;0.7853;0.7853;0.8827;0.8960;1.0000"
-                      dur="60s" repeatCount="indefinite"/>
-    <g>
-      <animateTransform attributeName="transform" type="rotate"
-                        values="-13 33.2 33.2; 13 33.2 33.2; -13 33.2 33.2"
-                        dur="21.9s" repeatCount="indefinite"/>
-      <use href="#sagoma" width="66.5" height="66.5"/>
+                        values="-13 27 27; 13 27 27; -13 27 27"
+                        dur="27.7s" repeatCount="indefinite"/>
+      <use href="#sagoma" width="54" height="54"/>
     </g>
   </g>
   <g opacity="0.1">
     <animateTransform attributeName="transform" type="translate" calcMode="linear"
-                      values="312,151;307,150;296,148;294,148;202,125;196,127;204,123;268,108;113,90;113,89;97,100;108,95;131,121;199,137;218,0;230,80;265,78;230,80;218,0;199,137;131,121;108,95;97,100;113,89;113,90;268,108;204,123;196,127;202,125;294,148;296,148;307,150;312,151" keyTimes="0.0000;0.0000;0.0013;0.0027;0.1040;0.1107;0.1173;0.1680;0.2560;0.2573;0.3067;0.3173;0.3507;0.3867;0.4453;0.4800;0.5000;0.5200;0.5547;0.6133;0.6493;0.6827;0.6933;0.7427;0.7440;0.8320;0.8827;0.8893;0.8960;0.9973;0.9987;1.0000;1.0000"
+                      values="421,2;411,73;411,68;425,73;558,31;555,0;550,73;547,22;546,0;547,16;564,6;562,0;556,16;588,73;628,0;669,73;709,0;750,73;765,44;748,21;765,44;750,73;709,0;669,73;628,0;588,73;556,16;562,0;564,6;547,16;546,0;547,22;550,73;555,0;558,31;425,73;411,68;411,73;421,2" keyTimes="0.0000;0.0400;0.0427;0.0493;0.1133;0.1280;0.1613;0.1840;0.1947;0.2027;0.2107;0.2133;0.2200;0.2573;0.3053;0.3533;0.4013;0.4493;0.4680;0.5000;0.5320;0.5507;0.5987;0.6467;0.6947;0.7427;0.7800;0.7867;0.7893;0.7973;0.8053;0.8160;0.8387;0.8720;0.8867;0.9507;0.9573;0.9600;1.0000"
                       dur="60s" repeatCount="indefinite"/>
     <g>
       <animateTransform attributeName="transform" type="rotate"
-                        values="-13 33.9 33.9; 13 33.9 33.9; -13 33.9 33.9"
-                        dur="19.6s" repeatCount="indefinite"/>
-      <use href="#sagoma" width="67.7" height="67.7"/>
-    </g>
-  </g>
-  <g opacity="0.2">
-    <animateTransform attributeName="transform" type="translate" calcMode="linear"
-                      values="610,56;573,0;547,40;509,43;451,137;440,113;374,72;410,0;469,123;588,60;469,123;410,0;374,72;440,113;451,137;509,43;547,40;573,0;610,56" keyTimes="0.0000;0.0373;0.0640;0.0813;0.1173;0.1333;0.1787;0.2067;0.2533;0.5000;0.7467;0.7933;0.8213;0.8667;0.8827;0.9187;0.9360;0.9627;1.0000"
-                      dur="60s" repeatCount="indefinite"/>
-    <g>
-      <animateTransform attributeName="transform" type="rotate"
-                        values="-13 20.5 20.5; 13 20.5 20.5; -13 20.5 20.5"
-                        dur="29.8s" repeatCount="indefinite"/>
-      <use href="#sagoma" width="41" height="41"/>
-    </g>
-  </g>
-  <g opacity="0.2">
-    <animateTransform attributeName="transform" type="translate" calcMode="linear"
-                      values="569,92;483,233;450,178;439,191;485,163;516,233;615,0;658,100;828,180;658,100;615,0;516,233;485,163;439,191;450,178;483,233;569,92" keyTimes="0.0000;0.0840;0.1173;0.1227;0.2533;0.2800;0.3667;0.4040;0.5000;0.5960;0.6333;0.7200;0.7467;0.8773;0.8827;0.9160;1.0000"
-                      dur="60s" repeatCount="indefinite"/>
-    <g>
-      <animateTransform attributeName="transform" type="rotate"
-                        values="-13 13.6 13.6; 13 13.6 13.6; -13 13.6 13.6"
-                        dur="31.6s" repeatCount="indefinite"/>
-      <use href="#sagoma" width="27.2" height="27.2"/>
-    </g>
-  </g>
-  <g opacity="0.2">
-    <animateTransform attributeName="transform" type="translate" calcMode="linear"
-                      values="807,102;935,102;678,101;671,130;672,132;733,0;823,195;912,1;823,195;733,0;672,132;671,130;678,101;935,102;807,102" keyTimes="0.0000;0.0707;0.2133;0.2387;0.2440;0.3093;0.4053;0.5000;0.5947;0.6907;0.7560;0.7613;0.7867;0.9293;1.0000"
-                      dur="60s" repeatCount="indefinite"/>
-    <g>
-      <animateTransform attributeName="transform" type="rotate"
-                        values="-13 32.5 32.5; 13 32.5 32.5; -13 32.5 32.5"
-                        dur="29.4s" repeatCount="indefinite"/>
-      <use href="#sagoma" width="65.1" height="65.1"/>
-    </g>
-  </g>
-  <g opacity="0.3">
-    <animateTransform attributeName="transform" type="translate" calcMode="linear"
-                      values="369,154;375,156;353,159;353,159;363,161;359,162;360,162;362,160;437,0;468,66;644,189;650,195;651,193;653,195;774,50;653,195;651,193;650,195;644,189;468,66;437,0;362,160;360,162;359,162;363,161;353,159;353,159;375,156;369,154" keyTimes="0.0000;0.0000;0.0000;0.0013;0.0013;0.0013;0.0027;0.0107;0.0973;0.1333;0.2387;0.2427;0.2440;0.2480;0.5000;0.7520;0.7560;0.7573;0.7613;0.8667;0.9027;0.9893;0.9973;0.9987;0.9987;0.9987;1.0000;1.0000;1.0000"
-                      dur="60s" repeatCount="indefinite"/>
-    <g>
-      <animateTransform attributeName="transform" type="rotate"
-                        values="-13 32.5 32.5; 13 32.5 32.5; -13 32.5 32.5"
-                        dur="28.4s" repeatCount="indefinite"/>
-      <use href="#sagoma" width="65.1" height="65.1"/>
-    </g>
-  </g>
-  <g opacity="0.2">
-    <animateTransform attributeName="transform" type="translate" calcMode="linear"
-                      values="396,170;417,165;423,161;499,0;500,3;504,0;641,125;633,219;623,99;633,219;641,125;504,0;500,3;499,0;423,161;417,165;396,170" keyTimes="0.0000;0.0000;0.0013;0.0800;0.0813;0.0893;0.4040;0.4467;0.5000;0.5533;0.5960;0.9107;0.9187;0.9200;0.9987;1.0000;1.0000"
-                      dur="60s" repeatCount="indefinite"/>
-    <g>
-      <animateTransform attributeName="transform" type="rotate"
-                        values="-13 20.5 20.5; 13 20.5 20.5; -13 20.5 20.5"
-                        dur="31.4s" repeatCount="indefinite"/>
-      <use href="#sagoma" width="41" height="41"/>
+                        values="-13 33.7 33.7; 13 33.7 33.7; -13 33.7 33.7"
+                        dur="25.7s" repeatCount="indefinite"/>
+      <use href="#sagoma" width="67.4" height="67.4"/>
     </g>
   </g>
   </g>
-  <g transform="translate(167.7,154.4) rotate(-3.7) scale(0.3)" opacity="0" fill="#FFA800">
-    <path d='M-0.4,4.8 L7.6,57.2 L20.4,54.8 L8.4,3.2 Z'/><path d='M31.0,2.5 L38.0,58.3 L46.0,57.7 L45.0,1.5 Z'/><path d='M6.3,27.9 L39.0,35.4 L41.0,24.6 L7.7,20.1 Z'/><path d='M59.1,58.1 L79.2,5.4 L72.8,2.6 L48.9,53.9 Z'/><path d='M72.6,4.9 L83.7,59.6 L96.3,56.4 L79.4,3.1 Z'/><path d='M61.1,39.9 L82.9,45.9 L85.1,36.1 L62.9,32.1 Z'/>
-    <animate attributeName="opacity" values="0;0;0.2;0.2;0" keyTimes="0;.14;.3;.62;1"
-             dur="6.7s" begin="4.9s" repeatCount="indefinite"/>
-  </g>
-  <g transform="translate(351.8,212) rotate(17.4) scale(0.4)" opacity="0" fill="#FFA800">
-    <path d='M0.0,2.4 L5.5,58.3 L14.5,57.7 L12.0,1.6 Z'/><path d='M35.5,0.4 L38.0,56.6 L52.0,55.4 L44.5,-0.4 Z'/><path d='M8.6,33.0 L43.4,27.5 L42.6,20.5 L7.4,23.0 Z'/><path d='M62.7,60.1 L76.9,2.9 L71.1,1.1 L49.3,55.9 Z'/><path d='M71.2,2.9 L85.4,58.2 L98.6,53.8 L76.8,1.1 Z'/><path d='M63.6,44.5 L86.5,40.5 L85.5,33.5 L62.4,35.5 Z'/>
-    <animate attributeName="opacity" values="0;0;0.2;0.2;0" keyTimes="0;.14;.3;.62;1"
-             dur="3.5s" begin="1.5s" repeatCount="indefinite"/>
-  </g>
-  <g transform="translate(739.7,221.9) rotate(6.9) scale(0.3)" opacity="0" fill="#FFA800">
-    <path d='M0.0,2.4 L5.5,58.3 L14.5,57.7 L12.0,1.6 Z'/><path d='M35.5,0.4 L38.0,56.6 L52.0,55.4 L44.5,-0.4 Z'/><path d='M8.6,33.0 L43.4,27.5 L42.6,20.5 L7.4,23.0 Z'/><path d='M62.7,60.1 L76.9,2.9 L71.1,1.1 L49.3,55.9 Z'/><path d='M71.2,2.9 L85.4,58.2 L98.6,53.8 L76.8,1.1 Z'/><path d='M63.6,44.5 L86.5,40.5 L85.5,33.5 L62.4,35.5 Z'/>
-    <animate attributeName="opacity" values="0;0;0.4;0.4;0" keyTimes="0;.14;.3;.62;1"
-             dur="5s" begin="2.2s" repeatCount="indefinite"/>
-  </g>
-  <g transform="translate(475.8,26.4) rotate(7.3) scale(0.4)" opacity="0" fill="#FFA800">
-    <path d='M-0.4,4.8 L7.6,57.2 L20.4,54.8 L8.4,3.2 Z'/><path d='M31.0,2.5 L38.0,58.3 L46.0,57.7 L45.0,1.5 Z'/><path d='M6.3,27.9 L39.0,35.4 L41.0,24.6 L7.7,20.1 Z'/><path d='M59.1,58.1 L79.2,5.4 L72.8,2.6 L48.9,53.9 Z'/><path d='M72.6,4.9 L83.7,59.6 L96.3,56.4 L79.4,3.1 Z'/><path d='M61.1,39.9 L82.9,45.9 L85.1,36.1 L62.9,32.1 Z'/>
-    <animate attributeName="opacity" values="0;0;0.4;0.4;0" keyTimes="0;.14;.3;.62;1"
-             dur="7.3s" begin="6.7s" repeatCount="indefinite"/>
-  </g>
-  <g transform="translate(501.5,121.9) rotate(-15.9) scale(0.4)" opacity="0" fill="#FFA800">
-    <path d='M-0.4,4.8 L7.6,57.2 L20.4,54.8 L8.4,3.2 Z'/><path d='M31.0,2.5 L38.0,58.3 L46.0,57.7 L45.0,1.5 Z'/><path d='M6.3,27.9 L39.0,35.4 L41.0,24.6 L7.7,20.1 Z'/><path d='M59.1,58.1 L79.2,5.4 L72.8,2.6 L48.9,53.9 Z'/><path d='M72.6,4.9 L83.7,59.6 L96.3,56.4 L79.4,3.1 Z'/><path d='M61.1,39.9 L82.9,45.9 L85.1,36.1 L62.9,32.1 Z'/>
-    <animate attributeName="opacity" values="0;0;0.4;0.4;0" keyTimes="0;.14;.3;.62;1"
-             dur="6.1s" begin="0.2s" repeatCount="indefinite"/>
-  </g>
-  <g transform="translate(345.4,198.8) rotate(10.6) scale(0.4)" opacity="0" fill="#FFA800">
-    <path d='M0.0,2.4 L5.5,58.3 L14.5,57.7 L12.0,1.6 Z'/><path d='M35.5,0.4 L38.0,56.6 L52.0,55.4 L44.5,-0.4 Z'/><path d='M8.6,33.0 L43.4,27.5 L42.6,20.5 L7.4,23.0 Z'/><path d='M62.7,60.1 L76.9,2.9 L71.1,1.1 L49.3,55.9 Z'/><path d='M71.2,2.9 L85.4,58.2 L98.6,53.8 L76.8,1.1 Z'/><path d='M63.6,44.5 L86.5,40.5 L85.5,33.5 L62.4,35.5 Z'/>
-    <animate attributeName="opacity" values="0;0;0.2;0.2;0" keyTimes="0;.14;.3;.62;1"
-             dur="6.8s" begin="5.4s" repeatCount="indefinite"/>
-  </g>
-  <g transform="translate(763.9,20.5) rotate(5.1) scale(0.4)" opacity="0" fill="#FFA800">
-    <path d='M0.0,2.4 L5.5,58.3 L14.5,57.7 L12.0,1.6 Z'/><path d='M35.5,0.4 L38.0,56.6 L52.0,55.4 L44.5,-0.4 Z'/><path d='M8.6,33.0 L43.4,27.5 L42.6,20.5 L7.4,23.0 Z'/><path d='M62.7,60.1 L76.9,2.9 L71.1,1.1 L49.3,55.9 Z'/><path d='M71.2,2.9 L85.4,58.2 L98.6,53.8 L76.8,1.1 Z'/><path d='M63.6,44.5 L86.5,40.5 L85.5,33.5 L62.4,35.5 Z'/>
-    <animate attributeName="opacity" values="0;0;0.2;0.2;0" keyTimes="0;.14;.3;.62;1"
-             dur="7.3s" begin="3.4s" repeatCount="indefinite"/>
-  </g>
-  <g transform="translate(266,76.4) rotate(12.2) scale(0.3)" opacity="0" fill="#FFA800">
+  <g transform="translate(914.1,78.3) rotate(8.9) scale(0.3)" opacity="0" fill="#FFA800">
     <path d='M-0.4,4.8 L7.6,57.2 L20.4,54.8 L8.4,3.2 Z'/><path d='M31.0,2.5 L38.0,58.3 L46.0,57.7 L45.0,1.5 Z'/><path d='M6.3,27.9 L39.0,35.4 L41.0,24.6 L7.7,20.1 Z'/><path d='M59.1,58.1 L79.2,5.4 L72.8,2.6 L48.9,53.9 Z'/><path d='M72.6,4.9 L83.7,59.6 L96.3,56.4 L79.4,3.1 Z'/><path d='M61.1,39.9 L82.9,45.9 L85.1,36.1 L62.9,32.1 Z'/>
     <animate attributeName="opacity" values="0;0;0.3;0.3;0" keyTimes="0;.14;.3;.62;1"
-             dur="8.1s" begin="4.7s" repeatCount="indefinite"/>
+             dur="5s" begin="5.1s" repeatCount="indefinite"/>
   </g>
-  <g transform="translate(48.2,171.3) rotate(-15.1) scale(0.3)" opacity="0" fill="#FFA800">
+  <g transform="translate(171,64.4) rotate(15.4) scale(0.3)" opacity="0" fill="#FFA800">
     <path d='M0.0,2.4 L5.5,58.3 L14.5,57.7 L12.0,1.6 Z'/><path d='M35.5,0.4 L38.0,56.6 L52.0,55.4 L44.5,-0.4 Z'/><path d='M8.6,33.0 L43.4,27.5 L42.6,20.5 L7.4,23.0 Z'/><path d='M62.7,60.1 L76.9,2.9 L71.1,1.1 L49.3,55.9 Z'/><path d='M71.2,2.9 L85.4,58.2 L98.6,53.8 L76.8,1.1 Z'/><path d='M63.6,44.5 L86.5,40.5 L85.5,33.5 L62.4,35.5 Z'/>
-    <animate attributeName="opacity" values="0;0;0.3;0.3;0" keyTimes="0;.14;.3;.62;1"
-             dur="6.3s" begin="5.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.4;0.4;0" keyTimes="0;.14;.3;.62;1"
+             dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
   </g>
-  <g transform="translate(326.4,91.6) rotate(-13.5) scale(0.3)" opacity="0" fill="#FFA800">
-    <path d='M-0.4,4.8 L7.6,57.2 L20.4,54.8 L8.4,3.2 Z'/><path d='M31.0,2.5 L38.0,58.3 L46.0,57.7 L45.0,1.5 Z'/><path d='M6.3,27.9 L39.0,35.4 L41.0,24.6 L7.7,20.1 Z'/><path d='M59.1,58.1 L79.2,5.4 L72.8,2.6 L48.9,53.9 Z'/><path d='M72.6,4.9 L83.7,59.6 L96.3,56.4 L79.4,3.1 Z'/><path d='M61.1,39.9 L82.9,45.9 L85.1,36.1 L62.9,32.1 Z'/>
+  <g transform="translate(462.4,30.8) rotate(-14.4) scale(0.3)" opacity="0" fill="#FFA800">
+    <path d='M0.0,2.4 L5.5,58.3 L14.5,57.7 L12.0,1.6 Z'/><path d='M35.5,0.4 L38.0,56.6 L52.0,55.4 L44.5,-0.4 Z'/><path d='M8.6,33.0 L43.4,27.5 L42.6,20.5 L7.4,23.0 Z'/><path d='M62.7,60.1 L76.9,2.9 L71.1,1.1 L49.3,55.9 Z'/><path d='M71.2,2.9 L85.4,58.2 L98.6,53.8 L76.8,1.1 Z'/><path d='M63.6,44.5 L86.5,40.5 L85.5,33.5 L62.4,35.5 Z'/>
     <animate attributeName="opacity" values="0;0;0.2;0.2;0" keyTimes="0;.14;.3;.62;1"
-             dur="7.5s" begin="5s" repeatCount="indefinite"/>
+             dur="5.9s" begin="6s" repeatCount="indefinite"/>
   </g>
-  <g transform="translate(319.6,213.4) rotate(8.9) scale(0.2)" opacity="0" fill="#FFA800">
+  <g transform="translate(259.3,93.8) rotate(17.6) scale(0.2)" opacity="0" fill="#FFA800">
     <path d='M-0.4,4.8 L7.6,57.2 L20.4,54.8 L8.4,3.2 Z'/><path d='M31.0,2.5 L38.0,58.3 L46.0,57.7 L45.0,1.5 Z'/><path d='M6.3,27.9 L39.0,35.4 L41.0,24.6 L7.7,20.1 Z'/><path d='M59.1,58.1 L79.2,5.4 L72.8,2.6 L48.9,53.9 Z'/><path d='M72.6,4.9 L83.7,59.6 L96.3,56.4 L79.4,3.1 Z'/><path d='M61.1,39.9 L82.9,45.9 L85.1,36.1 L62.9,32.1 Z'/>
     <animate attributeName="opacity" values="0;0;0.4;0.4;0" keyTimes="0;.14;.3;.62;1"
-             dur="6.7s" begin="6.3s" repeatCount="indefinite"/>
+             dur="3.7s" begin="0.6s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(259.3,25.2) rotate(6.2) scale(0.4)" opacity="0" fill="#FFA800">
+    <path d='M0.0,2.4 L5.5,58.3 L14.5,57.7 L12.0,1.6 Z'/><path d='M35.5,0.4 L38.0,56.6 L52.0,55.4 L44.5,-0.4 Z'/><path d='M8.6,33.0 L43.4,27.5 L42.6,20.5 L7.4,23.0 Z'/><path d='M62.7,60.1 L76.9,2.9 L71.1,1.1 L49.3,55.9 Z'/><path d='M71.2,2.9 L85.4,58.2 L98.6,53.8 L76.8,1.1 Z'/><path d='M63.6,44.5 L86.5,40.5 L85.5,33.5 L62.4,35.5 Z'/>
+    <animate attributeName="opacity" values="0;0;0.2;0.2;0" keyTimes="0;.14;.3;.62;1"
+             dur="8s" begin="4.9s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(652.2,102.9) rotate(14.9) scale(0.3)" opacity="0" fill="#FFA800">
+    <path d='M-0.4,4.8 L7.6,57.2 L20.4,54.8 L8.4,3.2 Z'/><path d='M31.0,2.5 L38.0,58.3 L46.0,57.7 L45.0,1.5 Z'/><path d='M6.3,27.9 L39.0,35.4 L41.0,24.6 L7.7,20.1 Z'/><path d='M59.1,58.1 L79.2,5.4 L72.8,2.6 L48.9,53.9 Z'/><path d='M72.6,4.9 L83.7,59.6 L96.3,56.4 L79.4,3.1 Z'/><path d='M61.1,39.9 L82.9,45.9 L85.1,36.1 L62.9,32.1 Z'/>
+    <animate attributeName="opacity" values="0;0;0.2;0.2;0" keyTimes="0;.14;.3;.62;1"
+             dur="6.8s" begin="0.9s" repeatCount="indefinite"/>
   </g>
 </svg>

@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/hero.svg?v=5" width="100%" alt="Zaick">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/hero.svg?v=6" width="100%" alt="Zaick">
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-1.svg?v=5" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-1.svg?v=6" width="100%" alt="">
 
 ### The toys
 
 <h3>
-  <img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/app-ducknote.svg?v=5" width="38" align="top">
+  <img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/app-ducknote.svg?v=6" width="38" align="top">
   &nbsp;<a href="https://github.com/Zaick99/DuckNote">DuckNote</a>
 </h3>
 
@@ -21,7 +21,7 @@ Code blocks guess their own language. The notes encrypt. The duck watches.</sub>
 [![Stars](https://img.shields.io/github/stars/Zaick99/DuckNote?style=for-the-badge&label=stars&color=F1707B&labelColor=1A1A1E)](https://github.com/Zaick99/DuckNote/stargazers)
 
 <h3>
-  <img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/app-zachievements.svg?v=5" width="38" align="top">
+  <img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/app-zachievements.svg?v=6" width="38" align="top">
   &nbsp;<a href="https://github.com/Zaick99/ZAchievements">ZAchievements</a>
 </h3>
 
@@ -34,18 +34,18 @@ A .NET 10 rebuild of gibbed's SAM. You didn't earn them. Neither did I.</sub>
 [![Downloads](https://img.shields.io/github/downloads/Zaick99/ZAchievements/total?style=for-the-badge&label=downloads&color=5FCB7A&labelColor=1A1A1E)](https://github.com/Zaick99/ZAchievements/releases)
 [![Stars](https://img.shields.io/github/stars/Zaick99/ZAchievements?style=for-the-badge&label=stars&color=F1707B&labelColor=1A1A1E)](https://github.com/Zaick99/ZAchievements/stargazers)
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-2.svg?v=5" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-2.svg?v=6" width="100%" alt="">
 
 ### Tools of the trade
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/tools.svg?v=5" width="560" alt="C#, .NET, Rust, PowerShell, Visual Studio, VS Code, Git, GitHub, GitHub Actions, Windows, Markdown, Steam">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/tools.svg?v=6" width="560" alt="C#, .NET, Rust, PowerShell, Visual Studio, VS Code, Git, GitHub, GitHub Actions, Windows, Markdown, Steam">
 
 <br>
 
 <sub>C# for the ones with windows. Rust for the ones with teeth.<br>
 PowerShell because somebody has to talk to the machine at 3am.</sub>
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-3.svg?v=5" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-3.svg?v=6" width="100%" alt="">
 
 ### The star chart
 
@@ -61,7 +61,7 @@ PowerShell because somebody has to talk to the machine at 3am.</sub>
 <sub><b>Look at it. Majestic.</b><br>
 Every star on that chart has a name. Add one and the line goes up.</sub>
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-1.svg?v=5" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-1.svg?v=6" width="100%" alt="">
 
 ### Nobody panics when things go according to plan.
 
