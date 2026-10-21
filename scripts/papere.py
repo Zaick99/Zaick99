@@ -241,22 +241,25 @@ def hero():
     d.text(56, 238, 'Ah, un visitatore! Entra, entra, fai come fossi a casa tua.', 'body', 17, MUTED)
     d.text(56, 264, 'Solo una cosa: non toccare le papere, sono in ordine. Più o meno.', 'body', 17, MUTED)
     d.text(56, 300, 'Qui mi ci sono impaperato parecchio.', 'bold', 18, BONE)
-    avatar = Image.open(io.BytesIO(fetch(f'https://avatars.githubusercontent.com/{USER}?s=460')))
-    avatar.thumbnail((440, 440), Image.LANCZOS)
-    av = png_uri(avatar, jpeg=True)
-    S, cx, cy = 214, 832, 170
-    d.add(f'<g transform="translate({cx} {cy}) rotate(-3)">'
-          f'<rect x="{-S/2+10}" y="{-S/2+10}" width="{S}" height="{S}" rx="18" fill="{YELLOW}" stroke="{INK}" stroke-width="3"/>'
-          f'<clipPath id="av"><rect x="{-S/2}" y="{-S/2}" width="{S}" height="{S}" rx="18"/></clipPath>'
-          f'<rect x="{-S/2}" y="{-S/2}" width="{S}" height="{S}" rx="18" fill="{INK}"/>'
-          f'<image x="{-S/2-4}" y="{-S/2-4}" width="{S+8}" height="{S+8}" href="{av}" xlink:href="{av}" clip-path="url(#av)"/>'
-          f'<rect x="{-S/2}" y="{-S/2}" width="{S}" height="{S}" rx="18" fill="none" stroke="{INK}" stroke-width="3"/></g>')
+    # Teschio e papera grandi che si girano intorno, come una coppia sulla pista da ballo.
+    cx, cy, R, T = 818, 172, 72, 14
+    d.add(f'<radialGradient id="spot"><stop offset="0" stop-color="{YELLOW}" stop-opacity=".18"/>'
+          f'<stop offset="1" stop-color="{YELLOW}" stop-opacity="0"/></radialGradient>'
+          f'<circle cx="{cx}" cy="{cy}" r="{R + 80}" fill="url(#spot)"/>')
+    d.add(f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="none" stroke="{YELLOW}" stroke-width="2" stroke-dasharray="3 9" '
+          f'stroke-linecap="round" opacity=".45"><animateTransform attributeName="transform" type="rotate" '
+          f'from="0 {cx} {cy}" to="-360 {cx} {cy}" dur="{T * 3}s" repeatCount="indefinite"/></circle>')
 
-    def bob(amp, dur, beg):
-        return (f'<animateTransform attributeName="transform" type="translate" values="0 0;0 {-amp};0 0" '
-                f'dur="{dur}s" begin="{beg}s" repeatCount="indefinite"/>')
-    d.add(f'<g>{bob(5, 3.2, 0)}{sprite("sk2", cx + S/2 + 4, cy - S/2 + 6, 70, 14)}</g>')
-    d.add(f'<g>{bob(4, 2.6, -1)}{sprite("dk", cx - S/2 - 6, cy + S/2 - 4, 84, -10)}</g>')
+    def dancer(kind, angle, size):
+        # orbita intorno al centro e contro-ruota su sé stesso, così resta dritto e dondola appena
+        return (f'<g transform="rotate({angle} {cx} {cy})"><g>'
+                f'<animateTransform attributeName="transform" type="rotate" from="0 {cx} {cy}" to="360 {cx} {cy}" dur="{T}s" repeatCount="indefinite"/>'
+                f'<g transform="translate({cx} {cy - R})"><g transform="rotate({-angle})"><g>'
+                f'<animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="{T}s" repeatCount="indefinite"/>'
+                f'<g><animateTransform attributeName="transform" type="rotate" values="-10;10;-10" dur="2.4s" repeatCount="indefinite"/>'
+                f'{sprite(kind, 0, 0, size)}</g></g></g></g></g></g>')
+    d.add(dancer('sk2', 0, 126))
+    d.add(dancer('dk', 180, 128))
     return d.render(clip)
 
 
