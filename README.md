@@ -1,29 +1,31 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/hero.svg?v=7" width="100%" alt="Zaick">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/hero.svg" width="100%" alt="ZAICK.NET — Qui mi ci sono impaperato parecchio.">
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-1.svg?v=7" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/stagno.svg" width="100%" alt="">
 
-<a href="https://github.com/Zaick99/DuckNote"><img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/card-ducknote.svg?v=7" width="300" alt="DuckNote"></a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/Zaick99/ZAchievements"><img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/card-zachievements.svg?v=7" width="300" alt="ZAchievements"></a>
+### Ogni papera è un capolavoro.
 
-<sub>Two cards on the table. Pick one — they both download.</sub>
+<sub>Lo dico io, ma lo dico con grande convinzione.</sub>
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-2.svg?v=7" width="100%" alt="">
+<br><br>
 
-### Tools of the trade
+<!-- Le card qui sotto le rigenera da sola la Action "Papere": non modificarle a mano. -->
+<!-- PAPERE:START -->
+<a href="https://github.com/Zaick99/DuckNote"><img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/card-ducknote.svg" width="420" alt="DuckNote"></a>
+<a href="https://github.com/Zaick99/ZAchievements"><img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/card-zachievements.svg" width="420" alt="ZAchievements"></a>
+<!-- PAPERE:END -->
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/tools.svg?v=7" width="560" alt="C#, .NET, Rust, PowerShell, Visual Studio, VS Code, Git, GitHub, GitHub Actions, Windows, Markdown, Steam">
+<sub>Fatte a mano, una per una, con tantissimo amore.<br>
+Scegline una, ma trattala bene: si affezionano in fretta.</sub>
 
-<br>
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/sigillo.svg" width="100%" alt="">
 
-<sub>C# for the ones with windows. Rust for the ones with teeth.<br>
-PowerShell because somebody has to talk to the machine at 3am.</sub>
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/tools.svg" width="100%" alt="Gli attrezzi del mestiere: C#, .NET, Rust, PowerShell, Visual Studio, VS Code, Git, GitHub Actions, Windows, Markdown, Steam">
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-3.svg?v=7" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/stagno.svg" width="100%" alt="">
 
-### The star chart
+### Guarda che linea.
 
 <a href="https://star-history.com/#zaick99/ducknote&zaick99/zachievements&Date">
   <picture>
@@ -32,21 +34,18 @@ PowerShell because somebody has to talk to the machine at 3am.</sub>
   </picture>
 </a>
 
-<br>
+<sub><b>Maestosa. Semplicemente maestosa.</b><br>
+Ogni stella su quel grafico ha un nome. Aggiungi il tuo e la linea sale.</sub>
 
-<sub><b>Look at it. Majestic.</b><br>
-Every star on that chart has a name. Add one and the line goes up.</sub>
+<br><br>
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/laughs-1.svg?v=7" width="100%" alt="">
-
-### Nobody panics when things go according to plan.
-
-<sub>Even if the plan is a 10.000-line PowerShell script rewritten in C# at 2am.</sub>
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/finale.svg" width="100%" alt="Ti è piaciuto lo spettacolo? Applausi, prego!">
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-FFA800?style=for-the-badge&logo=linkedin&logoColor=1A1A1E&labelColor=FFA800)](https://www.linkedin.com/in/zaick/)
-[![Steam](https://img.shields.io/badge/Steam-E6E7E9?style=for-the-badge&logo=steam&logoColor=1A1A1E&labelColor=E6E7E9)](https://steamcommunity.com/id/zaick)
-[![Download something](https://img.shields.io/badge/Download_something-232327?style=for-the-badge&logo=windows&logoColor=FFA800&labelColor=232327)](https://github.com/Zaick99?tab=repositories)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-FFA800?style=for-the-badge&logo=linkedin&logoColor=0D0D0F&labelColor=FFA800)](https://www.linkedin.com/in/zaick/)
+[![Steam](https://img.shields.io/badge/Steam-F4EFE4?style=for-the-badge&logo=steam&logoColor=0D0D0F&labelColor=F4EFE4)](https://steamcommunity.com/id/zaick)
+[![zaick.net](https://img.shields.io/badge/zaick.net-1C1C20?style=for-the-badge&logo=googlechrome&logoColor=FFA800&labelColor=1C1C20)](https://zaick.net)
+[![Adotta una papera](https://img.shields.io/badge/Adotta_una_papera-D3242C?style=for-the-badge&logo=github&logoColor=F4EFE4&labelColor=D3242C)](https://github.com/Zaick99?tab=repositories)
 
 </div>

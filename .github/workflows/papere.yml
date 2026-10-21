@@ -1,0 +1,51 @@
+name: Papere
+
+# Ogni giorno (e quando lo lanci a mano) rilegge le repo pubbliche
+# e rigenera le card del README: un progetto nuovo compare da solo.
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/papere.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: papere
+  cancel-in-progress: true
+
+jobs:
+  papere:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - run: pip install -r scripts/requirements.txt
+
+      - name: Rigenera le papere
+        run: python scripts/papere.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Salva se è cambiato qualcosa
+        run: |
+          git add -A assets README.md
+          if git diff --cached --quiet; then
+            echo "Nessuna papera nuova."
+            exit 0
+          fi
+          git config user.name "papere-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Aggiorna le papere"
+          git push
