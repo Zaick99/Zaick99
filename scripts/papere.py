@@ -509,6 +509,23 @@ def update_readme(block):
         readme.write_text(new)
 
 
+def stamp_versions():
+    """Aggiunge ?v=<hash> a ogni asset nel README: se un file cambia, cambia l'URL
+    e browser, app e CDN non possono più mostrare la versione vecchia dalla cache."""
+    import hashlib
+    readme = ROOT / 'README.md'
+    text = readme.read_text()
+
+    def bump(m):
+        f = ASSETS / m.group(1)
+        if not f.exists():
+            return m.group(0)
+        return f'{REPO_RAW}/{m.group(1)}?v=' + hashlib.sha1(f.read_bytes()).hexdigest()[:10]
+    new = re.sub(re.escape(REPO_RAW) + r'/([\w.-]+\.svg)(\?v=[\w]+)?', bump, text)
+    if new != text:
+        readme.write_text(new)
+
+
 def main():
     ASSETS.mkdir(exist_ok=True)
     fixed = {'hero.svg': hero, 'stagno.svg': pond, 'sigillo.svg': seal, 'tools.svg': tools, 'finale.svg': finale}
@@ -520,6 +537,7 @@ def main():
     block = build_cards()
     if block:
         update_readme(block)
+    stamp_versions()
 
 
 if __name__ == '__main__':
