@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/hero.svg?v=63bd8f3ce2" width="100%" alt="ZAICK.NET — Qui mi ci sono impaperato parecchio.">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/hero.svg?v=cc9b5dcff8" width="100%" alt="ZAICK.NET — Qui mi ci sono impaperato parecchio.">
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/stagno.svg?v=77bcb0b209" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/stagno.svg?v=de3eefaf44" width="100%" alt="">
 
 ### Ogni papera è un capolavoro.
 
@@ -20,11 +20,11 @@
 <sub>Fatte a mano, una per una, con tantissimo amore.<br>
 Scegline una, ma trattala bene: si affezionano in fretta.</sub>
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/sigillo.svg?v=41524dd742" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/sigillo.svg?v=4b7039bf80" width="100%" alt="">
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/tools.svg?v=719b3de303" width="100%" alt="Gli attrezzi del mestiere: C#, .NET, Rust, PowerShell, Visual Studio, VS Code, Git, GitHub Actions, Windows, Markdown, Steam">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/tools.svg?v=9889349d9b" width="100%" alt="Gli attrezzi del mestiere: C#, .NET, Rust, PowerShell, Visual Studio, VS Code, Git, GitHub Actions, Windows, Markdown, Steam">
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/stagno.svg?v=77bcb0b209" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/stagno.svg?v=de3eefaf44" width="100%" alt="">
 
 ### Guarda che linea.
 
@@ -40,7 +40,7 @@ Ogni stella su quel grafico ha un nome. Aggiungi il tuo e la linea sale.</sub>
 
 <br><br>
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/finale.svg?v=e9417d15b1" width="100%" alt="Ti è piaciuto lo spettacolo? Applausi, prego!">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/finale.svg?v=d73b79a372" width="100%" alt="Ti è piaciuto lo spettacolo? Applausi, prego!">
 
 <br>
 

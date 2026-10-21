@@ -186,6 +186,9 @@ def sprite(kind, x, y, size, rot=0, opacity=1):
             f'x="{-W/2:.1f}" y="{-H/2:.1f}" width="{W:.1f}" height="{H:.1f}"/></g>')
 
 
+EASE = ' calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"'
+
+
 def floaters(W, H, n, seed, alpha=(0.07, 0.12), sizes=(24, 74)):
     """Teschi e papere che attraversano lentamente il riquadro, 3 teschi ogni 2 papere."""
     rnd = random.Random(seed)
@@ -204,7 +207,7 @@ def floaters(W, H, n, seed, alpha=(0.07, 0.12), sizes=(24, 74)):
                    f'<animateTransform attributeName="transform" type="translate" from="{-size:.0f} {y:.0f}" to="{W + size:.0f} {y:.0f}" '
                    f'dur="{dur:.1f}s" begin="{begin:.1f}s" repeatCount="indefinite"/>'
                    f'<g transform="rotate({rot:.0f})"><g><animateTransform attributeName="transform" type="rotate" '
-                   f'values="{-wob:.1f};{wob:.1f};{-wob:.1f}" dur="{wdur:.1f}s" repeatCount="indefinite"/>{inner}</g></g></g></g>')
+                   f'values="{-wob:.1f};{wob:.1f};{-wob:.1f}" dur="{wdur:.1f}s" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/>{inner}</g></g></g></g>')
     return '\n'.join(out)
 
 
@@ -250,16 +253,16 @@ def hero():
           f'stroke-linecap="round" opacity=".45"><animateTransform attributeName="transform" type="rotate" '
           f'from="0 {cx} {cy}" to="-360 {cx} {cy}" dur="{T * 3}s" repeatCount="indefinite"/></circle>')
 
-    def dancer(kind, angle, size):
-        # orbita intorno al centro e contro-ruota su sé stesso, così resta dritto e dondola appena
-        return (f'<g transform="rotate({angle} {cx} {cy})"><g>'
-                f'<animateTransform attributeName="transform" type="rotate" from="0 {cx} {cy}" to="360 {cx} {cy}" dur="{T}s" repeatCount="indefinite"/>'
-                f'<g transform="translate({cx} {cy - R})"><g transform="rotate({-angle})"><g>'
-                f'<animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="{T}s" repeatCount="indefinite"/>'
-                f'<g><animateTransform attributeName="transform" type="rotate" values="-10;10;-10" dur="2.4s" repeatCount="indefinite"/>'
-                f'{sprite(kind, 0, 0, size)}</g></g></g></g></g></g>')
+    def dancer(kind, phase, size):
+        # Un solo animateMotion lungo il cerchio: niente rotazioni annidate da sincronizzare,
+        # il moto resta uniforme e lo sprite sta dritto da solo; sopra, un dondolio morbido.
+        orbit = f'M0 {-R} A{R} {R} 0 1 1 0 {R} A{R} {R} 0 1 1 0 {-R}'
+        return (f'<g transform="translate({cx} {cy})"><g>'
+                f'<animateMotion path="{orbit}" dur="{T}s" begin="{-T * phase:.2f}s" repeatCount="indefinite" calcMode="linear"/>'
+                f'<g><animateTransform attributeName="transform" type="rotate" values="-10;10;-10" dur="2.4s"{EASE} repeatCount="indefinite"/>'
+                f'{sprite(kind, 0, 0, size)}</g></g></g>')
     d.add(dancer('sk2', 0, 126))
-    d.add(dancer('dk', 180, 128))
+    d.add(dancer('dk', .5, 128))
     return d.render(clip)
 
 
@@ -289,7 +292,7 @@ def pond():
     duck = sprite('dk', 0, 0, 40)
     d.add(f'<g><animateTransform attributeName="transform" type="translate" from="-40 {y0 - 14}" to="{W + 40} {y0 - 14}" '
           f'dur="34s" repeatCount="indefinite"/>'
-          f'<g><animateTransform attributeName="transform" type="rotate" values="-5;5;-5" dur="2.6s" repeatCount="indefinite"/>{duck}</g></g>')
+          f'<g><animateTransform attributeName="transform" type="rotate" values="-5;5;-5" dur="2.6s" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/>{duck}</g></g>')
     return d.render(fade)
 
 
@@ -307,7 +310,7 @@ def seal():
     for dx in (-30, 30):
         d.add(f'<circle cx="{W/2+dx}" cy="{cy}" r="2.5" fill="{YELLOW}"/>')
     d.add(f'<g><animateTransform attributeName="transform" type="rotate" values="-6 {W/2} {cy};6 {W/2} {cy};-6 {W/2} {cy}" '
-          f'dur="4s" repeatCount="indefinite"/>{sprite("sk2", W/2, cy, 40)}</g>')
+          f'dur="4s" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/>{sprite("sk2", W/2, cy, 40)}</g>')
     return d.render(grad)
 
 
