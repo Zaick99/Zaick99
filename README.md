@@ -13,6 +13,7 @@
 <!-- Le card qui sotto le rigenera da sola la Action "Papere": non modificarle a mano. -->
 <!-- PAPERE:START -->
 <a href="https://github.com/Zaick99/DuckNote"><img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/card-ducknote.svg" width="420" alt="DuckNote"></a>
+<a href="https://github.com/Zaick99/DuckPrinterManager"><img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/card-duckprintermanager.svg" width="420" alt="DuckPrinterManager"></a>
 <a href="https://github.com/Zaick99/ZAchievements"><img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/card-zachievements.svg" width="420" alt="ZAchievements"></a>
 <!-- PAPERE:END -->
 
