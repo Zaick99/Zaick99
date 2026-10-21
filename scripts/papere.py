@@ -447,7 +447,10 @@ def card(name, desc, icon, index):
         d.add(sprite(kind, ix + I / 2, iy + I / 2, 58, 0, .45))
     tx = ix + I + 22
     d.text(tx, iy + 30, fit(name, 'display', 25, cw - tx - 40), 'display', 25, BONE)
-    for j, line in enumerate(wrap(desc, 'body', 15, cw - tx - 24)[:5]):
+    lines = wrap(desc, 'body', 15, cw - tx - 24)
+    if len(lines) > 4:
+        lines = lines[:3] + [fit(' '.join(lines[3:]), 'body', 15, cw - tx - 24)]
+    for j, line in enumerate(lines):
         d.text(tx, iy + 58 + j * 23, line, 'body', 15, MUTED)
     d.text(cw - 18, 34, '↗', 'bold', 18, YELLOW, 'end')
     return d.render()
