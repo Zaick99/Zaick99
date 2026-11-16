@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/hero.svg?v=4c7f617d1d" width="100%" alt="ZAICK.NET — Qui mi ci sono impaperato parecchio.">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/hero.svg?v=de9c55e256" width="100%" alt="ZAICK.NET — Qui mi ci sono impaperato parecchio.">
 
 <img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/stagno.svg?v=0f9bf0a860" width="100%" alt="">
 
@@ -12,9 +12,9 @@
 
 <!-- Le card qui sotto le rigenera da sola la Action "Papere": non modificarle a mano. -->
 <!-- PAPERE:START -->
-<a href="https://github.com/Zaick99/DuckPrinter"><img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/card-duckprinter.svg?v=6bb35dbf1a" width="420" alt="DuckPrinter"></a>
-<a href="https://github.com/Zaick99/DuckNote"><img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/card-ducknote.svg?v=25d37ba762" width="420" alt="DuckNote"></a>
-<a href="https://github.com/Zaick99/ZAchievements"><img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/card-zachievements.svg?v=9eb37d43b0" width="420" alt="ZAchievements"></a>
+<a href="https://github.com/Zaick99/DuckPrinter"><img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/card-duckprinter.svg?v=9095efc34b" width="420" alt="DuckPrinter"></a>
+<a href="https://github.com/Zaick99/DuckNote"><img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/card-ducknote.svg?v=1b4f122147" width="420" alt="DuckNote"></a>
+<a href="https://github.com/Zaick99/ZAchievements"><img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/card-zachievements.svg?v=e99f59d58a" width="420" alt="ZAchievements"></a>
 <!-- PAPERE:END -->
 
 <sub>Fatte a mano, una per una, con tantissimo amore.<br>
@@ -22,7 +22,7 @@ Scegline una, ma trattala bene: si affezionano in fretta.</sub>
 
 <img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/sigillo.svg?v=767442a3f6" width="100%" alt="">
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/tools.svg?v=99ab6de80a" width="100%" alt="Gli attrezzi del mestiere: C#, .NET, Rust, PowerShell, Visual Studio, VS Code, Git, GitHub Actions, Windows, Markdown, Steam">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/tools.svg?v=fb34b50eae" width="100%" alt="Gli attrezzi del mestiere: C#, .NET, Rust, PowerShell, Visual Studio, VS Code, Git, GitHub Actions, Windows, Markdown, Steam">
 
 <img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/stagno.svg?v=0f9bf0a860" width="100%" alt="">
 
@@ -40,7 +40,7 @@ Ogni stella su quel grafico ha un nome. Aggiungi il tuo e la linea sale.</sub>
 
 <br><br>
 
-<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/finale.svg?v=54e40ae7fb" width="100%" alt="Ti è piaciuto lo spettacolo? Applausi, prego!">
+<img src="https://raw.githubusercontent.com/Zaick99/Zaick99/main/assets/finale.svg?v=142cc62747" width="100%" alt="Ti è piaciuto lo spettacolo? Applausi, prego!">
 
 <br>
 
